@@ -43,7 +43,7 @@ npm run dev
 
 ### Rodar o Frontend
 
-Em outro terminal:
+Abra outro terminal dentro da pasta clonada e rode:
 ```
 cd journeys-client
 npm install
