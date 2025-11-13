@@ -21,11 +21,13 @@ journeys-analytics/
 
 ## Como Rodar o Projeto
 
+1. **Crie uma pasta** para o projeto e abra-a no **Visual Studio Code**.  
+   Em seguida, abra o terminal dentro dessa pasta.
+
 ### Clonar o repositório
 
 ```
-git clone https://github.com/Renannl/journeys-analytics.git
-cd journeys-analytics
+git clone https://github.com/Renannl/journeys-analytics.git .
 ```
 
 ### Rodar o Backend
@@ -37,6 +39,7 @@ npm run dev
 ```
 
 "O servidor rodará em http://localhost:3000"
+(Acesse http://localhost:3000/journeys caso queria ver o JSON)
 
 ### Rodar o Frontend
 
@@ -47,5 +50,5 @@ npm install
 npm run dev
 ```
 
-
 "O frontend rodará em http://localhost:5173"
+
