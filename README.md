@@ -21,8 +21,8 @@ journeys-analytics/
 
 ## Como Rodar o Projeto
 
-1. **Crie uma pasta** para o projeto e abra-a no **Visual Studio Code**.  
-   Em seguida, abra o terminal dentro dessa pasta.
+**Crie uma pasta** para o projeto e abra-a no **Visual Studio Code**.  
+   Em seguida, abra o terminal dentro dessa pasta e cole as seguintes linhas. 
 
 ### Clonar o repositório
 
