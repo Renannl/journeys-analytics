@@ -1,0 +1,98 @@
+.journey-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  border-radius: 10px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.06);
+  background-color: #ffffff;
+  padding: 1rem;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, sans-serif;
+  color: #111827;
+  transition: background 0.3s ease;
+}
+
+.filter-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.75rem;
+  gap: 8px;
+  justify-content: flex-end;
+}
+
+.filter-container label {
+  font-weight: 600;
+  color: #374151;
+  font-size: 0.9rem;
+}
+
+.filter-container select {
+  padding: 5px 8px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  font-size: 0.9rem;
+  background: #fff;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.filter-container select:hover {
+  border-color: #9ca3af;
+}
+
+.journey-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.journey-table th {
+  background-color: #fafafa;
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #e6e6e6;
+  font-weight: 600;
+  color: #111827;
+}
+
+.journey-table td {
+  padding: 8px;
+  border-bottom: 1px solid #f1f5f9;
+  vertical-align: middle;
+  transition: background 0.2s ease;
+}
+
+.journey-table tr:hover td {
+  background-color: #f9fafb;
+}
+
+.touchpoint-flow {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.touchpoint-tag {
+  color: #ffffff;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 0.82rem;
+  font-weight: 500;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.touchpoint-tag:hover {
+  transform: scale(1.05);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+}
+
+.flow-arrow {
+  color: #9ca3af;
+  font-weight: bold;
+  font-size: 0.85rem;
+  transition: color 0.2s ease;
+}
+
+.flow-arrow:hover {
+  color: #4b5563;
+}

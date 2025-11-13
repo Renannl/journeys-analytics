@@ -1,0 +1,15 @@
+body {
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+  color: #222;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+table tr:hover {
+  background-color: #f9f9f9;
+}
